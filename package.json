@@ -4,8 +4,8 @@
   "description": "A simple DNS server that I decided to write to further improve my proficiency with nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev":"nodemon server.js"
+    "start": "node dns-server.js",
+    "dev": "nodemon dns-server.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/IanMcbull/dns-nodejs/issues"
   },
-  "homepage": "https://github.com/IanMcbull/dns-nodejs#readme"
+  "homepage": "https://github.com/IanMcbull/dns-nodejs#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "node-ipinfo": "^2.1.0",
+    "nodemon": "^2.0.12"
+  }
 }
